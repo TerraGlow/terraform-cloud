@@ -1,5 +1,4 @@
 
-
 # Create a VM instance
 resource "google_compute_instance" "vm_instance" {
   name         = "example-vm"
@@ -7,7 +6,7 @@ resource "google_compute_instance" "vm_instance" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-10"
+      image = "ubuntu-os-cloud/ubuntu-2004-lts"
     }
   }
 
