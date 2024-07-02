@@ -1,9 +1,3 @@
-# Configure the Google Cloud provider
-provider "google" {
-  project = "hidden-cosmos-428006-c1"
-  region  = "us-central1"
-  zone    = "us-central1-b"
-}
 
 # Create a VM instance
 resource "google_compute_instance" "vm_instance" {
