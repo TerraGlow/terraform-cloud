@@ -1,7 +1,7 @@
 # Deploy gcs bucket using terraform cloud
 
 provider "google" {
-  project = "daslearning"
+  project = "hidden-cosmos-428006-c1"
   region  = "us-central1"
   zone    = "us-central1-b"
 }
