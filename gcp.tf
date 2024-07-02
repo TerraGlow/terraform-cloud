@@ -7,6 +7,6 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "bucket" {
-  name     = "srelearning"
+  name     = "srelearning1"
   location = "ASIA-SOUTH1"
 }
